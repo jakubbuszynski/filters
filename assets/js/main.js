@@ -28,6 +28,10 @@ $('input[name="blur"]').change(function() {
   update('blur', this.value, 'px');
 });
 
+$('input[name="brightness"]').change(function() {
+  update('brightness', this.value, '%');
+});
+
 $('input[name="invert"]').change(function() {
   update('invert', this.value, '%');
 });
