@@ -27,3 +27,7 @@ var update = function(filter, value, units) {
 $('input[name="blur"]').change(function() {
   update('blur', this.value, 'px');
 });
+
+$('input[name="invert"]').change(function() {
+  update('invert', this.value, '%');
+});
