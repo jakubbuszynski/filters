@@ -21,6 +21,7 @@ header h1 {
   font-weight: 200;
 }
 
+
 /* Content */
 
 .content {
@@ -74,4 +75,14 @@ header h1 {
   background-color: #434341;
   height: 1px;
   vertical-align: 1px;
+}
+
+
+/* Button */
+
+button#reset {
+  margin: 10px 0;
+  height: 30px;
+  width: 80px;
+  color: #3e3e3e;
 }

@@ -40,6 +40,10 @@ $('input[name="grayscale"]').change(function() {
   update('grayscale', this.value, '%');
 });  
 
+$('input[name="hue-rotate"]').change(function() {
+  update('hue-rotate', this.value, 'deg');
+});
+
 $('input[name="invert"]').change(function() {
   update('invert', this.value, '%');
 });
@@ -54,4 +58,20 @@ $('input[name="saturate"]').change(function() {
 
 $('input[name="sepia"]').change(function() {
   update('sepia', this.value, '%');
+});
+
+$('#reset').click(function() {
+  filters = {}
+  update_output();
+  $('.output span').text('none');
+  
+  $('input[name="blur"]')[0].value = 0;
+  $('input[name="brightness"]')[0].value = 100;
+  $('input[name="contrast"]')[0].value = 100;
+  $('input[name="grayscale"]')[0].value = 0;
+  $('input[name="hue-rotate"]')[0].value = 0;
+  $('input[name="invert"]')[0].value = 0;
+  $('input[name="opacity"]')[0].value = 100;
+  $('input[name="saturate"]')[0].value = 100;
+  $('input[name="sepia"]')[0].value = 0;
 });
