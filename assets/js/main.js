@@ -36,6 +36,10 @@ $('input[name="contrast"]').change(function() {
   update('contrast', this.value, '%');
 });
 
+$('input[name="grayscale"]').change(function() {
+  update('grayscale', this.value, '%');
+});  
+
 $('input[name="invert"]').change(function() {
   update('invert', this.value, '%');
 });
