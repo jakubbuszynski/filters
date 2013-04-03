@@ -32,6 +32,10 @@ $('input[name="brightness"]').change(function() {
   update('brightness', this.value, '%');
 });
 
+$('input[name="contrast"]').change(function() {
+  update('contrast', this.value, '%');
+});
+
 $('input[name="invert"]').change(function() {
   update('invert', this.value, '%');
 });
