@@ -35,3 +35,7 @@ $('input[name="brightness"]').change(function() {
 $('input[name="invert"]').change(function() {
   update('invert', this.value, '%');
 });
+
+$('input[name="opacity"]').change(function() {
+  update('opacity', this.value, '%');
+});
