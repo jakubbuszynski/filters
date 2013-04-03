@@ -1,0 +1,22 @@
+html, body, h1, h2 {
+  margin: 0;
+  padding: 0;  
+  font-family: 'Raleway', sans-serif;
+}
+
+.inner {
+  width: 600px;
+  margin: 0 auto;
+}
+
+
+/* Header */
+
+header {
+  padding: 26px 0;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: 200;
+}
