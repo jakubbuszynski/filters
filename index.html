@@ -19,7 +19,30 @@
     <header class="inner">
       <h1>Filters</h1>
     </header>
+    
+    <div class="inner content">
+      <h2>Interactive Example</h2>
+      <p>Choose a CSS filter and move the slider to see it in action.</p>
+      <div id="e1">
+        <img src="assets/img/example1_600.jpg" />
+      </div>
+      <div class="output">
+        <code>-webkit-filter: <span>none</span>;</code>
+      </div>
       
+      <div class="filters">
+      
+        <div class="filter">
+          <div class="filter-name">
+            <p>blur</p>
+          </div>
+          <div class="filter-setting">
+            <input type="range" name="blur" min="0" max="50" step="1" value="0">
+          </div>
+        </div>
+        
+      </div>
+    </div>  
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="assets/js/main.js"></script>

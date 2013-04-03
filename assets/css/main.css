@@ -20,3 +20,58 @@ header h1 {
   font-size: 36px;
   font-weight: 200;
 }
+
+/* Content */
+
+.content {
+  margin: 10px auto;
+}
+
+.content h2 {
+  font-size: 1.17em;
+  padding: 10px 0 5px 0;
+}
+
+.content p {
+  font-size: 15px;
+}
+
+.output {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+/* Filters */
+
+.filters {
+  margin: 10px 0;
+}
+
+.filters .filter {
+  float: left;
+  width: 300px;
+}
+
+.filters .filter div {
+  padding: 10px 0;
+}
+
+.filters .filter .filter-name {
+  float: left;
+}
+
+.filters .filter .filter-name p {
+  margin: 0;
+}
+
+.filters .filter .filter-setting {
+  float: right;
+}
+
+.filters .filter .filter-setting input[type="range"] {
+  -webkit-appearance: none!important;
+  width: 150px;
+  background-color: #434341;
+  height: 1px;
+  vertical-align: 1px;
+}
