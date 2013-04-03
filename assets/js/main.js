@@ -51,3 +51,7 @@ $('input[name="opacity"]').change(function() {
 $('input[name="saturate"]').change(function() {
   update('saturate', this.value, '%');
 });
+
+$('input[name="sepia"]').change(function() {
+  update('sepia', this.value, '%');
+});
