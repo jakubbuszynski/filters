@@ -5,7 +5,7 @@ html, body, h1, h2 {
 }
 
 .inner {
-  width: 600px;
+  width: 550px;
   margin: 0 auto;
 }
 
@@ -20,7 +20,6 @@ header h1 {
   font-size: 36px;
   font-weight: 200;
 }
-
 
 /* Content */
 
@@ -50,7 +49,11 @@ header h1 {
 
 .filters .filter {
   float: left;
-  width: 300px;
+  width: 250px;
+}
+
+.filters .filter:nth-child(2n) {  
+  margin-left: 50px;
 }
 
 .filters .filter div {
@@ -77,12 +80,12 @@ header h1 {
   vertical-align: 1px;
 }
 
-
 /* Button */
 
 button#reset {
-  margin: 10px 0;
+  margin: 10px 0 10px 50px;
   height: 30px;
   width: 80px;
   color: #3e3e3e;
+  font-size: 13px;
 }
