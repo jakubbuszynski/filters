@@ -75,3 +75,8 @@ $('#reset').click(function() {
   $('input[name="saturate"]')[0].value = 100;
   $('input[name="sepia"]')[0].value = 0;
 });
+
+$('#pinhole').click(function() {
+  $(this).toggleClass("down").siblings().removeClass('down');
+  $('#e2 img').toggleClass('pinhole');
+});

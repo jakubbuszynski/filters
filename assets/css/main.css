@@ -13,13 +13,14 @@ html, body, h1, h2 {
 /* Header */
 
 header {
-  padding: 26px 0;
+  padding: 16px 0;
 }
 
 header h1 {
   font-size: 36px;
   font-weight: 200;
 }
+
 
 /* Content */
 
@@ -29,7 +30,7 @@ header h1 {
 
 .content h2 {
   font-size: 1.17em;
-  padding: 10px 0 5px 0;
+  padding: 20px 0 10px 0;
 }
 
 .content p {
@@ -40,6 +41,7 @@ header h1 {
   font-size: 20px;
   padding: 20px 0;
 }
+
 
 /* Filters */
 
@@ -80,6 +82,7 @@ header h1 {
   vertical-align: 1px;
 }
 
+
 /* Button */
 
 button#reset {
@@ -88,4 +91,32 @@ button#reset {
   width: 80px;
   color: #3e3e3e;
   font-size: 13px;
+}
+
+
+/* Preset filters */
+
+.preset-filters {
+  margin-bottom: 50px;
+}
+
+.preset-filters button {
+  margin: 5px 7px;
+  width: 120px;
+  height: 30px;
+  color: #fff;
+  background-color: #4b8cf7;
+  border: 1px solid #3079ed;
+  font-size: 14px;
+  
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+.preset-filters button.down {
+  color: #fff;
+  background-color: #35aa47;
+  border: 1px solid #359947;
+  font-size: 14px;
 }
