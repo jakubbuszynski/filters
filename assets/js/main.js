@@ -76,7 +76,12 @@ $('#reset').click(function() {
   $('input[name="sepia"]')[0].value = 0;
 });
 
+$('#glowing-sun').click(function() {
+  $(this).toggleClass("down").siblings().removeClass('down');
+  $('#e2 img').toggleClass('glowing-sun').removeClass('pinhole');
+});
+
 $('#pinhole').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('pinhole');
+  $('#e2 img').toggleClass('pinhole').removeClass('glowing-sun');
 });
