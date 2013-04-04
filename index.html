@@ -4,133 +4,148 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Filters | Cuttarug</title>
-    <meta name="description" content="">
+    <meta name="description" content="Instagram-like filters in CSS">
     <meta name="viewport" content="width=device-width">
     
     <link rel="stylesheet" href="assets/css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Raleway:200,700,400' rel='stylesheet' type='text/css'>
-    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <!--[if (gt IE 8) | (IEMobile)]><!-->
+    <link rel="stylesheet" href="http://cuttarug.com/assets/css/style.css">
+    <!--<![endif]-->
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" href="http://cuttarug.com/assets/css/ie.css">
+    <![endif]-->
     <link rel="stylesheet" href="assets/css/filters.css">
     <link rel="stylesheet" href="assets/css/main.css">
     
     <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
   <body>
-    <header class="inner">
-      <h1>Filters</h1>
+    <header id="top">
+      <a href="/"><h1>Cuttarug</h1></a>
+      <div class="border"></div>
     </header>
     
-    <div class="inner content">
-      <h2>Interactive Example</h2>
-      <p>Choose a CSS filter and move the slider to see it in action.</p>
-      <div id="e1">
-        <img src="assets/img/example1_600.jpg" width="550px" />
-      </div>
-      <div class="output">
-        <code>-webkit-filter: <span>none</span>;</code>
-      </div>
-      
-      <div class="filters">
-      
-        <div class="filter">
-          <div class="filter-name">
-            <p>blur</p>
-          </div>
-          <div class="filter-setting">
-            <input type="range" name="blur" min="0" max="50" step="1" value="0">
-          </div>
+    <div class="container">
+      <div class="post">
+        <header>
+          <h2>Filters</h2>
+        </header>
+        <p>Filters is a CSS file that provides Instagram-like filters in CSS.</p>
+        <p>Filters was inspired by <a href="http://camanjs.com/">CamanJS</a></p>
+        
+        <h3>Preset Filters</h3>
+        <p><a href="https://raw.github.com/cuttarug/filters/gh-pages/assets/css/filters.css">filters.css</a> has a couple preset combinations of CSS filter effects that can be used to style images.</p>
+        <div id="e2">
+          <img src="assets/img/example2_600.jpg" />
         </div>
+        <div class="preset-filters">
+          <button id="vintage">Vintage</button>
+          <button id="sin-city">Sin City</button>
+          <button id="glowing-sun">Glowing Sun</button>
+          <button id="grungy">Grungy</button>
+          <button id="pinhole">Pinhole</button>
+        </div>
+        
+        <h3>Create Your Own</h3>
+        <p>Below is a list of the available CSS filter effects. Move their sliders to create your own image filters.</p>
 
-        <div class="filter">
-          <div class="filter-name">
-            <p>invert</p>
-          </div>
-          <div class="filter-setting">
-            <input type="range" name="invert" min="0" max="100" step="1" value="0">
-          </div>
+        <div id="e1">
+          <img src="assets/img/example1_600.jpg" width="550px" />
         </div>
+      
+        <div class="output">
+          <code>-webkit-filter: <span>none</span>;</code>
+        </div>
+      
+        <div class="filters">
+        
+          <div class="filter">
+            <div class="filter-name">
+              <p>blur</p>
+            </div>
+            <div class="filter-setting">
+              <input type="range" name="blur" min="0" max="50" step="1" value="0">
+            </div>
+          </div>        
 
-        <div class="filter">
-          <div class="filter-name">
-            <p>brightness</p>
+          <div class="filter">
+            <div class="filter-name">
+              <p>invert</p>
+            </div>
+            <div class="filter-setting">
+              <input type="range" name="invert" min="0" max="100" step="1" value="0">
+            </div>
           </div>
-          <div class="filter-setting">
-            <input type="range" name="brightness" min="0" max="500" step="1" value="100">
-          </div>
-        </div>
 
-        <div class="filter">
-          <div class="filter-name">
-            <p>opacity</p>
+          <div class="filter">
+            <div class="filter-name">
+              <p>brightness</p>
+            </div>
+            <div class="filter-setting">
+              <input type="range" name="brightness" min="0" max="500" step="1" value="100">
+            </div>
           </div>
-          <div class="filter-setting">
-            <input type="range" name="opacity" min="0" max="100" step="1" value="100">
+
+          <div class="filter">
+            <div class="filter-name">
+              <p>opacity</p>
+            </div>
+            <div class="filter-setting">
+              <input type="range" name="opacity" min="0" max="100" step="1" value="100">
+            </div>
           </div>
+
+          <div class="filter">
+            <div class="filter-name">
+              <p>contrast</p>
+            </div>
+            <div class="filter-setting">
+              <input type="range" name="contrast" min="0" max="500" step="1" value="100">
+            </div>
+          </div>
+
+          <div class="filter">
+            <div class="filter-name">
+              <p>saturate</p>
+            </div>
+            <div class="filter-setting">
+              <input type="range" name="saturate" min="0" max="500" step="1" value="100">
+            </div>
+          </div>
+
+          <div class="filter">
+            <div class="filter-name">
+              <p>grayscale</p>
+            </div>
+            <div class="filter-setting">
+              <input type="range" name="grayscale"  min="0" max="100" step="1" value="0">
+            </div>
+          </div>
+
+          <div class="filter">
+            <div class="filter-name">
+              <p>sepia</p>
+            </div>
+            <div class="filter-setting">
+              <input type="range" name="sepia" min="0" max="100" step="1" value="0">
+            </div>
+          </div>
+
+          <div class="filter">
+            <div class="filter-name">
+              <p>hue-rotate</p>
+            </div>
+            <div class="filter-setting">
+              <input type="range" name="hue-rotate" min="0" max="360" step="1" value="0">
+            </div>
+          </div>
+          
+          <button id="reset">Reset</button>
         </div>
-        
-        <div class="filter">
-          <div class="filter-name">
-            <p>contrast</p>
-          </div>
-          <div class="filter-setting">
-            <input type="range" name="contrast" min="0" max="500" step="1" value="100">
-          </div>
-        </div>
-        
-        <div class="filter">
-          <div class="filter-name">
-            <p>saturate</p>
-          </div>
-          <div class="filter-setting">
-            <input type="range" name="saturate" min="0" max="500" step="1" value="100">
-          </div>
-        </div>
-        
-        <div class="filter">
-          <div class="filter-name">
-            <p>grayscale</p>
-          </div>
-          <div class="filter-setting">
-            <input type="range" name="grayscale"  min="0" max="100" step="1" value="0">
-          </div>
-        </div>
-        
-        <div class="filter">
-          <div class="filter-name">
-            <p>sepia</p>
-          </div>
-          <div class="filter-setting">
-            <input type="range" name="sepia" min="0" max="100" step="1" value="0">
-          </div>
-        </div>
-        
-        <div class="filter">
-          <div class="filter-name">
-            <p>hue-rotate</p>
-          </div>
-          <div class="filter-setting">
-            <input type="range" name="hue-rotate" min="0" max="360" step="1" value="0">
-          </div>
-        </div>
-        
       </div>
-      
-      <button id="reset">Reset</button>
-      
-      <h2>Preset Examples</h2>
-      <p><a href="https://raw.github.com/cuttarug/filters/gh-pages/assets/css/filters.css">filters.css</a> has a couple preset combinations of CSS filters that can be used to style images.</p>
-      <div id="e2">
-        <img src="assets/img/example2_600.jpg" width="550px" />
-      </div>
-      <div class="preset-filters">
-        <button id="vintage">Vintage</button>
-        <button id="sin-city">Sin City</button>
-        <button id="glowing-sun">Glowing Sun</button>
-        <button id="grungy">Grungy</button>
-        <button id="pinhole">Pinhole</button>
-      </div>
-      
-    </div>  
+    </div>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="assets/js/main.js"></script>

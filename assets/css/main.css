@@ -1,109 +1,20 @@
-html, body, h1, h2 {
-  margin: 0;
-  padding: 0;  
-  font-family: 'Raleway', sans-serif;
+img {
+  max-width: 550px;
+  width: 100%;
 }
-
-.inner {
-  width: 550px;
-  margin: 0 auto;
-}
-
-
-/* Header */
-
-header {
-  padding: 16px 0;
-}
-
-header h1 {
-  font-size: 36px;
-  font-weight: 200;
-}
-
-
-/* Content */
-
-.content {
-  margin: 10px auto;
-}
-
-.content h2 {
-  font-size: 1.17em;
-  padding: 20px 0 10px 0;
-}
-
-.content p {
-  font-size: 15px;
-}
-
-.output {
-  font-size: 20px;
-  padding: 20px 0;
-}
-
-
-/* Filters */
-
-.filters {
-  margin: 10px 0;
-}
-
-.filters .filter {
-  float: left;
-  width: 250px;
-}
-
-.filters .filter:nth-child(2n) {  
-  margin-left: 50px;
-}
-
-.filters .filter div {
-  padding: 10px 0;
-}
-
-.filters .filter .filter-name {
-  float: left;
-}
-
-.filters .filter .filter-name p {
-  margin: 0;
-}
-
-.filters .filter .filter-setting {
-  float: right;
-}
-
-.filters .filter .filter-setting input[type="range"] {
-  -webkit-appearance: none!important;
-  width: 150px;
-  background-color: #434341;
-  height: 1px;
-  vertical-align: 1px;
-}
-
-
-/* Button */
-
-button#reset {
-  margin: 10px 0 10px 50px;
-  height: 30px;
-  width: 80px;
-  color: #3e3e3e;
-  font-size: 13px;
-}
-
 
 /* Preset filters */
 
 .preset-filters {
   margin-bottom: 50px;
+  max-width: 550px;
+  width: 100%;
 }
 
 .preset-filters button {
   margin: 5px 7px;
-  width: 120px;
   height: 30px;
+  width: 114px;
   color: #fff;
   background-color: #4b8cf7;
   border: 1px solid #3079ed;
@@ -119,4 +30,74 @@ button#reset {
   background-color: #35aa47;
   border: 1px solid #359947;
   font-size: 14px;
+}
+
+/* Filters */
+
+.filters {
+  margin: 10px 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.filters .filter {
+  float: left;
+  width: 250px;
+}
+
+.filters .filter div {
+  padding: 10px 0;
+}
+
+.filters .filter .filter-name {
+  float: left;  
+}
+
+.filters .filter .filter-name p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+.filters .filter .filter-setting {
+  float: right;
+}
+
+.filters .filter .filter-setting input[type="range"] {
+  -webkit-appearance: none!important;
+  width: 150px;
+  background-color: #434341;
+  height: 1px;
+  vertical-align: 1px;
+}
+
+.output {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+/* Button */
+
+button#reset {
+  /*margin: 10px 0 10px 50px;*/
+  height: 30px;
+  width: 80px;
+  color: #3e3e3e;
+  font-size: 13px;
+}
+
+@media only screen and (min-width: 550px) {
+  .preset-filters button {
+    width: 120px;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .filters .filter:nth-child(2n) {  
+    margin-left: 50px;
+  }
+  
+  button#reset {
+    margin: 10px 0 10px 50px;
+  }
 }
