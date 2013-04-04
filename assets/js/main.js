@@ -78,20 +78,25 @@ $('#reset').click(function() {
 
 $('#glowing-sun').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('glowing-sun').removeClass('grungy pinhole sin-city');
+  $('#e2 img').toggleClass('glowing-sun').removeClass('grungy pinhole sin-city vintage');
 });
 
 $('#grungy').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('grungy').removeClass('glowing-sun pinhole sin-city');
+  $('#e2 img').toggleClass('grungy').removeClass('glowing-sun pinhole sin-city vintage');
 });
 
 $('#pinhole').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('pinhole').removeClass('glowing-sun grungy sin-city');
+  $('#e2 img').toggleClass('pinhole').removeClass('glowing-sun grungy sin-city vintage');
 });
 
 $('#sin-city').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('sin-city').removeClass('glowing-sun grungy pinhole');
+  $('#e2 img').toggleClass('sin-city').removeClass('glowing-sun grungy pinhole vintage');
+});
+
+$('#vintage').click(function() {
+  $(this).toggleClass("down").siblings().removeClass('down');
+  $('#e2 img').toggleClass('vintage').removeClass('glowing-sun grungy pinhole sin-city');
 });

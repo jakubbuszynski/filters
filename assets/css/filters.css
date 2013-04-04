@@ -29,3 +29,11 @@
        -o-filter: contrast(500%) grayscale(100%) brightness(158%);
           filter: contrast(500%) grayscale(100%) brightness(158%);
 }
+
+.vintage {
+  -webkit-filter: grayscale(89%) sepia(40%) brightness(122%);
+     -moz-filter: grayscale(89%) sepia(40%) brightness(122%);
+      -ms-filter: grayscale(89%) sepia(40%) brightness(122%);
+       -o-filter: grayscale(89%) sepia(40%) brightness(122%);
+          filter: grayscale(89%) sepia(40%) brightness(122%);
+}
