@@ -78,10 +78,15 @@ $('#reset').click(function() {
 
 $('#glowing-sun').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('glowing-sun').removeClass('pinhole');
+  $('#e2 img').toggleClass('glowing-sun').removeClass('grungy pinhole');
+});
+
+$('#grungy').click(function() {
+  $(this).toggleClass("down").siblings().removeClass('down');
+  $('#e2 img').toggleClass('grungy').removeClass('glowing-sun pinhole');
 });
 
 $('#pinhole').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('pinhole').removeClass('glowing-sun');
+  $('#e2 img').toggleClass('pinhole').removeClass('glowing-sun grungy');
 });

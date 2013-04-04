@@ -6,6 +6,14 @@
           filter: saturate(219%) sepia(46%) contrast(158%);
 }
 
+.grungy {
+  -webkit-filter: contrast(259%) grayscale(52%) brightness(83%) saturate(79%);
+     -moz-filter: contrast(259%) grayscale(52%) brightness(83%) saturate(79%);
+      -ms-filter: contrast(259%) grayscale(52%) brightness(83%) saturate(79%);
+       -o-filter: contrast(259%) grayscale(52%) brightness(83%) saturate(79%);
+          filter: contrast(259%) grayscale(52%) brightness(83%) saturate(79%);
+}
+
 .pinhole {
   -webkit-filter: grayscale(100%) sepia(10%) contrast(130%) brightness(110%);
      -moz-filter: grayscale(100%) sepia(10%) contrast(130%) brightness(110%);
