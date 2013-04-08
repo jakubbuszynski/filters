@@ -14,6 +14,14 @@
           filter: contrast(259%) grayscale(52%) brightness(83%) saturate(79%);
 }
 
+.lomo {
+  -webkit-filter: contrast(288%) grayscale(42%) saturate(158%);
+     -moz-filter: contrast(288%) grayscale(42%) saturate(158%);
+      -ms-filter: contrast(288%) grayscale(42%) saturate(158%);
+       -o-filter: contrast(288%) grayscale(42%) saturate(158%);
+          filter: contrast(288%) grayscale(42%) saturate(158%);
+}
+
 .pinhole {
   -webkit-filter: grayscale(100%) sepia(10%) contrast(130%) brightness(110%);
      -moz-filter: grayscale(100%) sepia(10%) contrast(130%) brightness(110%);
