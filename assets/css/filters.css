@@ -14,6 +14,14 @@
           filter: contrast(259%) grayscale(52%) brightness(83%) saturate(79%);
 }
 
+.hemingway {
+  -webkit-filter: brightness(122%) saturate(29%) sepia(27%) hue-rotate(342deg);
+     -moz-filter: brightness(122%) saturate(29%) sepia(27%) hue-rotate(342deg);
+      -ms-filter: brightness(122%) saturate(29%) sepia(27%) hue-rotate(342deg);
+       -o-filter: brightness(122%) saturate(29%) sepia(27%) hue-rotate(342deg);
+          filter: brightness(122%) saturate(29%) sepia(27%) hue-rotate(342deg);
+}
+
 .lomo {
   -webkit-filter: contrast(288%) grayscale(42%) saturate(158%);
      -moz-filter: contrast(288%) grayscale(42%) saturate(158%);
