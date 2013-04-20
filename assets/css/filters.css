@@ -53,3 +53,11 @@
        -o-filter: grayscale(89%) sepia(40%) brightness(122%);
           filter: grayscale(89%) sepia(40%) brightness(122%);
 }
+
+.xpro {
+  -webkit-filter: contrast(140%) saturate(129%) grayscale(47%);
+     -moz-filter: contrast(140%) saturate(129%) grayscale(47%);
+      -ms-filter: contrast(140%) saturate(129%) grayscale(47%);
+       -o-filter: contrast(140%) saturate(129%) grayscale(47%);
+          filter: contrast(140%) saturate(129%) grayscale(47%);
+}
