@@ -1,3 +1,11 @@
+.apollo {
+  -webkit-filter: hue-rotate(360deg) brightness(156%) grayscale(32%) saturate(111%);
+     -moz-filter: hue-rotate(360deg) brightness(156%) grayscale(32%) saturate(111%);
+      -ms-filter: hue-rotate(360deg) brightness(156%) grayscale(32%) saturate(111%);
+       -o-filter: hue-rotate(360deg) brightness(156%) grayscale(32%) saturate(111%);
+          filter: hue-rotate(360deg) brightness(156%) grayscale(32%) saturate(111%);
+}
+
 .glowing-sun {
   -webkit-filter: saturate(219%) sepia(46%) contrast(158%) brightness(110%);
      -moz-filter: saturate(219%) sepia(46%) contrast(158%);
