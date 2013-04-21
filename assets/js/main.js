@@ -78,45 +78,50 @@ $('#reset').click(function() {
 
 $('#apollo').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('apollo').removeClass('glowing-sun grungy hemingway lomo pinhole sin-city vintage');
+  $('#e2 img').toggleClass('apollo').removeClass('glowing-sun grungy hemingway lomo nashville pinhole sin-city vintage');
 });
 
 $('#glowing-sun').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('glowing-sun').removeClass('apollo grungy hemingway lomo pinhole sin-city vintage');
+  $('#e2 img').toggleClass('glowing-sun').removeClass('apollo grungy hemingway lomo nashville pinhole sin-city vintage');
 });
 
 $('#grungy').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('grungy').removeClass('apollo glowing-sun hemingway lomo pinhole sin-city vintage xpro');
+  $('#e2 img').toggleClass('grungy').removeClass('apollo glowing-sun hemingway lomo nashville pinhole sin-city vintage xpro');
 });
 
 $('#hemingway').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('hemingway').removeClass('apollo glowing-sun grungy lomo pinhole sin-city vintage xpro');
+  $('#e2 img').toggleClass('hemingway').removeClass('apollo glowing-sun grungy lomo nashville pinhole sin-city vintage xpro');
 });
 
 $('#lomo').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('lomo').removeClass('apollo glowing-sun grungy hemingway pinhole sin-city vintage xpro');
+  $('#e2 img').toggleClass('lomo').removeClass('apollo glowing-sun grungy hemingway nashville pinhole sin-city vintage xpro');
+});
+
+$('#nashville').click(function() {
+  $(this).toggleClass("down").siblings().removeClass('down');
+  $('#e2 img').toggleClass('nashville').removeClass('apollo glowing-sun grungy hemingway lomo pinhole sin-city vintage xpro');
 });
 
 $('#pinhole').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('pinhole').removeClass('apollo glowing-sun grungy hemingway lomo sin-city vintage xpro');
+  $('#e2 img').toggleClass('pinhole').removeClass('apollo glowing-sun grungy hemingway nashville lomo sin-city vintage xpro');
 });
 
 $('#sin-city').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('sin-city').removeClass('apollo glowing-sun grungy hemingway lomo pinhole vintage xpro');
+  $('#e2 img').toggleClass('sin-city').removeClass('apollo glowing-sun grungy hemingway nashville lomo pinhole vintage xpro');
 });
 
 $('#vintage').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('vintage').removeClass('apollo glowing-sun grungy hemingway lomo pinhole sin-city xpro');
+  $('#e2 img').toggleClass('vintage').removeClass('apollo glowing-sun grungy hemingway nashville lomo pinhole sin-city xpro');
 });
 
 $('#xpro').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('xpro').removeClass('apollo glowing-sun grungy hemingway lomo pinhole sin-city vintage');
+  $('#e2 img').toggleClass('xpro').removeClass('apollo glowing-sun grungy hemingway nashville lomo pinhole sin-city vintage');
 });

@@ -38,6 +38,14 @@
           filter: contrast(288%) grayscale(42%) saturate(158%);
 }
 
+.nashville {
+  -webkit-filter: brightness(154%) hue-rotate(345deg) grayscale(25%) invert(20%);
+     -moz-filter: brightness(154%) hue-rotate(345deg) grayscale(25%) invert(20%);
+      -ms-filter: brightness(154%) hue-rotate(345deg) grayscale(25%) invert(20%);
+       -o-filter: brightness(154%) hue-rotate(345deg) grayscale(25%) invert(20%);
+          filter: brightness(154%) hue-rotate(345deg) grayscale(25%) invert(20%);
+}
+
 .pinhole {
   -webkit-filter: grayscale(100%) sepia(10%) contrast(130%) brightness(110%);
      -moz-filter: grayscale(100%) sepia(10%) contrast(130%) brightness(110%);
