@@ -1,3 +1,3 @@
 # Filters
 
-Instagram-like filters in CSS
+Instagram-like filters in CSS.
