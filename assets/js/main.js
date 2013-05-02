@@ -78,12 +78,12 @@ $('#reset').click(function() {
 
 $('#apollo').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('apollo').removeClass('glowing-sun grungy hemingway lomo nashville pinhole sin-city vintage');
+  $('#e2 img').toggleClass('apollo').removeClass('glowing-sun grungy hemingway lomo nashville pinhole sin-city vintage xpro');
 });
 
 $('#glowing-sun').click(function() {
   $(this).toggleClass("down").siblings().removeClass('down');
-  $('#e2 img').toggleClass('glowing-sun').removeClass('apollo grungy hemingway lomo nashville pinhole sin-city vintage');
+  $('#e2 img').toggleClass('glowing-sun').removeClass('apollo grungy hemingway lomo nashville pinhole sin-city vintage xpro');
 });
 
 $('#grungy').click(function() {
